@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Website</title>
+    <title>Personal Portfolio</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
 
@@ -12,7 +12,7 @@
 <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
         <div class="container">
-          <a class="navbar-brand" href="#">John Doe</a>
+          <a class="navbar-brand" href="#">Personal Portfolio</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -38,8 +38,68 @@
         </div>
       </nav>
 
-      <section id="home" style="background-image: url('');">
+      <section class="min-vh-100 d-flex flex-column justify-content-end align-items-center" id="home" style="background-image: url('image/photo-14.jpg'); background-size: cover;">
+        <div class="text-center bg-success p-2 text-dark bg-opacity-25">
+            <p class="display-3 text-secondary mb-3">Personal Portfolio</p>
+            <h6 class="fs-5 text-capitalize mb-4">Front-End Developer</h6>
+        </div>
 
+        <div class="d-grid gap-2 col-2 mx-auto">
+            <a class="btn btn-success btn-lg active rounded-pill mb-2" href="#about">About</a>
+          </div>
+      </section>
+
+      <section class="container py-5" id="about">
+        <div class="text-center py-5">
+            <h2 class="fw-bolder">About</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="row">
+            <div class="col-lg-4" >
+                <img class="img-fluid" src="image/photo-15.jpg">
+            </div>
+            <div class="col-lg-7 offset-lg-1">
+                <p class="lh-lg" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, molestiae commodi? Cum ullam voluptatum fuga modi? Quos possimus corrupti quisquam? Ratione, hic repellat distinctio iste at cumque ad harum architecto odio rem excepturi itaque minima praesentium quibusdam dolorum perferendis voluptas!</p>
+                <h3 class="fw-bold fs-4">Skills</h3>
+                
+                <p class="mb-0" >HTML:</p>
+                <div class="progress mb-3">
+                    <div class="progress-bar progress-bar-striped bg-success" style="width: 99%;">99%</div>
+                </div>
+                <p class="mb-0" >CSS:</p>
+                <div class="progress mb-3">
+                    <div class="progress-bar progress-bar-striped bg-info" style="width: 99%;">99%</div>
+                </div>
+                <p class="mb-0" >JS:</p>
+                <div class="progress mb-3">
+                    <div class="progress-bar progress-bar-striped bg-warning" style="width: 99%;">99%</div>
+                </div>
+                <p class="mb-0" >BOOTSTRAP 5:</p>
+                <div class="progress mb-3">
+                    <div class="progress-bar progress-bar-striped bg-danger" style="width: 99%;">99%</div>
+                </div>
+                <p class="mb-0" >ANGULAR:</p>
+                <div class="progress mb-3">
+                    <div class="progress-bar progress-bar-striped bg-dark" style="width: 99%;">99%</div>
+                </div>
+                <p class="mb-0" >REACT:</p>
+                <div class="progress mb-3">
+                    <div class="progress-bar progress-bar-striped bg-gradient" style="width: 99%;">99%</div>
+                </div>
+                <p class="mb-0" >VUE JS:</p>
+                <div class="progress mb-3">
+                    <div class="progress-bar progress-bar-striped bg-secondary" style="width: 99%;">99%</div>
+                </div>
+            </div>
+
+        </div>
+
+      </section>
+
+      <section id="images" class="bg-dark py-5">
+        <div class="container">
+
+        </div>
 
       </section>
 
