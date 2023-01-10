@@ -1,3 +1,31 @@
 .nav-link.active{
-    color: rgb(36, 174, 52) !important;
+    color: rgb(23, 109, 89) !important;
+}
+
+.btn-success{
+    background-color: rgb(23, 109, 89) !important;
+}
+
+.btn-success:hover{
+    background-color: rgb(33, 160, 131) !important;
+}
+
+.bg-success{
+    background-color: rgb(23, 109, 89) !important;
+    opacity: 0.5;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.text-secondary{
+    color: white !important;
+    opacity: 0.8;
+}
+
+.bg-greenyellow{
+    background-color: green;
+}
+
+.navbar-nav li>a:hover,.navbar-nav li>a:focus,.navbar-nav li.active {
+    color: rgb(23, 109, 89)
 }
