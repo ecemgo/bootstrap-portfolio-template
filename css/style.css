@@ -17,6 +17,10 @@
     margin-bottom: 5px;
 }
 
+.bg-dark{
+    background-color: rgba(23, 109, 89, 0.523) !important;
+}
+
 .text-secondary{
     color: white !important;
     opacity: 0.8;
@@ -29,3 +33,209 @@
 .navbar-nav li>a:hover,.navbar-nav li>a:focus,.navbar-nav li.active {
     color: rgb(23, 109, 89)
 }
+
+/*-------------------------
+           GALLERY
+-------------------------*/
+
+.modal-dialog {
+    text-align: left; /* you'll likely want this */
+    max-width: 100%;
+    width: auto !important;
+    display: inline-block;
+}
+
+.modal {
+    text-align: center;
+}
+
+#gallery img {
+    cursor: pointer;
+    border-radius: 10px;
+    height: 75vw;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  @media (min-width: 576px) {
+    #gallery img {
+      height: 35vw;
+    }
+  }
+  @media (min-width: 992px) {
+    #gallery img {
+      height: 18vw;
+    }
+  }
+  
+  .carousel-item img {
+    height: 60vw;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  @media (min-width: 576px) {
+    .carousel-item img {
+      height: 600px;
+    }
+  }
+  
+  * {
+    transition: 0.3s;
+  }
+  
+  #gallery.custom {
+    padding: 0 15px;
+  }
+  #gallery.custom img {
+    display: block;
+    margin: 15px 0;
+    border-radius: 300px 30px 300px 300px;
+  }
+  #gallery.custom img:hover {
+    border-radius: 30px 90px 30px 30px;
+  }
+  
+  #exampleModal.custom .modal-content {
+    background: none;
+    border: none;
+  }
+  #exampleModal.custom .modal-header {
+    border: none;
+  }
+  #exampleModal.custom .modal-header button {
+    background: none;
+    border-radius: 100px 100px 0 0;
+    padding: 5px 10px;
+    opacity: 1;
+    position: relative;
+    top: 3px;
+    border: solid 2px white;
+  }
+  @media (min-width: 992px) {
+    #exampleModal.custom .modal-header button {
+      top: 15px;
+    }
+  }
+  #exampleModal.custom .modal-header button:hover {
+    top: 3px;
+  }
+  #exampleModal.custom .modal-header span {
+    color: white;
+  }
+  #exampleModal.custom .modal-body {
+    padding: 0;
+    border: none;
+    position: relative;
+  }
+  #exampleModal.custom .modal-body::before, #exampleModal.custom .modal-body::after {
+    content: "";
+    height: 50px;
+    width: 50px;
+    display: block;
+    position: absolute;
+    background: white;
+    border-radius: 3px 10px;
+  }
+  @media (min-width: 768px) {
+    #exampleModal.custom .modal-body::before, #exampleModal.custom .modal-body::after {
+      border-radius: 3px 30px;
+      height: 100px;
+      width: 100px;
+    }
+  }
+  #exampleModal.custom .modal-body::before {
+    top: -5px;
+    left: -5px;
+  }
+  @media (min-width: 768px) {
+    #exampleModal.custom .modal-body::before {
+      top: -15px;
+      left: -15px;
+    }
+  }
+  #exampleModal.custom .modal-body::after {
+    bottom: -5px;
+    right: -5px;
+    z-index: -1;
+  }
+  @media (min-width: 768px) {
+    #exampleModal.custom .modal-body::after {
+      bottom: -15px;
+      right: -15px;
+    }
+  }
+  #exampleModal.custom .modal-footer {
+    border: none;
+    margin-top: 60px;
+  }
+  @media (min-width: 992px) {
+    #exampleModal.custom .modal-footer {
+      margin-top: 40px;
+    }
+  }
+  #exampleModal.custom .modal-footer .btn {
+    margin: auto;
+    border: solid 2px white;
+    background: none;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    letter-spacing: 0.1em;
+    font-weight: bold;
+    padding: 0.2em 0.7em;
+  }
+  #exampleModal.custom .modal-footer .btn:hover {
+    background: white;
+    color: black;
+  }
+  #exampleModal.custom .carousel-control-prev, #exampleModal.custom .carousel-control-next {
+    font-size: 2em;
+    top: auto;
+    opacity: 1;
+    bottom: -52px;
+  }
+  @media (min-width: 768px) {
+    #exampleModal.custom .carousel-control-prev, #exampleModal.custom .carousel-control-next {
+      top: 0;
+      opacity: 0.5;
+      bottom: 0;
+    }
+  }
+  #exampleModal.custom .carousel-control-next-icon, #exampleModal.custom .carousel-control-prev-icon {
+    height: 30px;
+    width: 30px;
+  }
+  @media (min-width: 768px) {
+    #exampleModal.custom .carousel-control-prev {
+      left: -90px;
+    }
+  }
+  @media (min-width: 768px) {
+    #exampleModal.custom .carousel-control-next {
+      right: -90px;
+    }
+  }
+  #exampleModal.custom .carousel-indicators {
+    bottom: -60px;
+  }
+  @media (min-width: 992px) {
+    #exampleModal.custom .carousel-indicators {
+      bottom: -30px;
+    }
+  }
+  #exampleModal.custom .carousel-indicators li {
+    height: 30px;
+    border-radius: 100px;
+    background: none;
+    border: solid 2px white;
+  }
+  @media (min-width: 992px) {
+    #exampleModal.custom .carousel-indicators li {
+      height: 10px;
+    }
+  }
+  #exampleModal.custom .carousel-indicators li:hover {
+    background: white;
+  }
+  #exampleModal.custom .carousel-indicators li.active {
+    background: white;
+  }
+  

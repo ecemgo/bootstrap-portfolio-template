@@ -31,7 +31,7 @@
                 <a class="nav-link" href="#about">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#skills">Skills</a>
+                <a class="nav-link" href="#travel">Travel</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#blog">Blog</a>
@@ -68,7 +68,7 @@
                 </div>
                 <div class="col-lg-7 offset-lg-1">
                     <p class="lh-lg" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, molestiae commodi? Cum ullam voluptatum fuga modi? Quos possimus corrupti quisquam? Ratione, hic repellat distinctio iste at cumque ad harum architecto odio rem excepturi itaque minima praesentium quibusdam dolorum perferendis voluptas!</p>
-                    <h3 class="fw-bold fs-4">Skills</h3>
+                    <h3 class="fw-bold fs-4">Travel</h3>
                     
                     <p class="mb-0" >HTML:</p>
                     <div class="progress mb-3">
@@ -104,13 +104,14 @@
 
         </section>
 
-        <section data-bs-spy="scroll" data-bs-target="#scrolling_navbar" class="bg-dark py-5" id="skills">
+        <section data-bs-spy="scroll" data-bs-target="#scrolling_navbar" class="bg-dark py-5" id="travel">
             <div class="container">
                 <div class="text-white text-center py-5">
-                    <h2 class="fw-bolder">Skills</h2>
+                    <h2 class="fw-bolder">Travel</h2>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas, necessitatibus.</p>
                 </div>
 
+                <!--
                 <div class="row">
                     <div class="col-lg-4 col-md-6 mb-4 d-flex align-items-stretch">
                         <img src="image/img-html.jpg" class="img-fluid img-thumbnail">
@@ -131,7 +132,100 @@
                         <img src="image/img-vuejs.jpg" class="img-fluid img-thumbnail">
                     </div>
                 </div>
+                -->
+
+                <div class="row pb-4" id="gallery" data-toggle="modal" data-target="#exampleModal">
+                    <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                      <img class="w-100 img-thumbnail" src="image/photo-1.jpg" data-target="#carouselExample" data-slide-to="0">
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                      <img class="w-100 img-thumbnail" src="image/photo-2.jpg" data-target="#carouselExample" data-slide-to="1">
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                      <img class="w-100 img-thumbnail" src="image/photo-3.jpg" data-target="#carouselExample" data-slide-to="2">
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                      <img class="w-100 img-thumbnail" src="image/photo-4.jpg" data-target="#carouselExample" data-slide-to="3">
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                        <img class="w-100 img-thumbnail" src="image/photo-5.jpg" data-target="#carouselExample" data-slide-to="4">
+                      </div>
+                      <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                        <img class="w-100 img-thumbnail" src="image/photo-6.jpg" data-target="#carouselExample" data-slide-to="5">
+                      </div>
+                      <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                        <img class="w-100 img-thumbnail" src="image/photo-7.jpg" data-target="#carouselExample" data-slide-to="6">
+                      </div>
+                      <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                        <img class="w-100 img-thumbnail" src="image/photo-8.jpg" data-target="#carouselExample" data-slide-to="7">
+                      </div>
+                  </div>
+                  
+                  <!-- Modal -->
+                  <!-- 
+                  This part is straight out of Bootstrap docs. Just a carousel inside a modal.
+                  -->
+                  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="7" aria-label="Slide 8"></button>
+                              </div>
+                            <div class="carousel-inner">
+                              <div class="carousel-item active" data-bs-interval="3000">
+                                <img class="d-block w-100" src="image/photo-1.jpg">
+                              </div>
+                              <div class="carousel-item" data-bs-interval="3000">
+                                <img class="d-block w-100" src="image/photo-2.jpg">
+                              </div>
+                              <div class="carousel-item" data-bs-interval="3000">
+                                <img class="d-block w-100" src="image/photo-3.jpg">
+                              </div>
+                              <div class="carousel-item" data-bs-interval="3000">
+                                <img class="d-block w-100" src="image/photo-4.jpg">
+                              </div>
+                              <div class="carousel-item" data-bs-interval="3000">
+                                <img class="d-block w-100" src="image/photo-5.jpg">
+                              </div>
+                              <div class="carousel-item" data-bs-interval="3000">
+                                <img class="d-block w-100" src="image/photo-6.jpg">
+                              </div>
+                              <div class="carousel-item" data-bs-interval="3000">
+                                <img class="d-block w-100" src="image/photo-7.jpg">
+                              </div>
+                              <div class="carousel-item" data-bs-interval="3000">
+                                <img class="d-block w-100" src="image/photo-8.jpg">
+                              </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExample" type="button" data-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExample" type="button" data-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
             </div>
+            
         </section>
 
         <section data-bs-spy="scroll" data-bs-target="#scrolling_navbar" class="py-5" id="blog">
@@ -148,7 +242,7 @@
                             <div class="card-body">
                                 <h5 class="card-title text-center py-2">Lorem ipsum dolor sit amet</h5>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora nam quidem quia, dignissimos modi possimus asperiores nihil blanditiis sunt voluptates quae facere placeat corporis? Ipsa, consequuntur reprehenderit? Repellendus, aliquam. Deleniti.</p>
-                                <a href="" class="btn btn-light">Click to read this article...</a>
+                                <a href="" class="btn btn-light d-flex justify-content-center">Click to read this article...</a>
                             </div>
 
                         </div>
@@ -161,7 +255,7 @@
                             <div class="card-body">
                                 <h5 class="card-title text-center py-2">Lorem ipsum dolor sit amet</h5>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora nam quidem quia, dignissimos modi possimus asperiores nihil blanditiis sunt voluptates quae facere placeat corporis? Ipsa, consequuntur reprehenderit? Repellendus, aliquam. Deleniti.</p>
-                                <a href="" class="btn btn-light">Click to read this article...</a>
+                                <a href="" class="btn btn-light d-flex justify-content-center">Click to read this article...</a>
                             </div>
 
                         </div>
@@ -174,7 +268,7 @@
                             <div class="card-body">
                                 <h5 class="card-title text-center py-2">Lorem ipsum dolor sit amet</h5>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora nam quidem quia, dignissimos modi possimus asperiores nihil blanditiis sunt voluptates quae facere placeat corporis? Ipsa, consequuntur reprehenderit? Repellendus, aliquam. Deleniti.</p>
-                                <a href="" class="btn btn-light">Click to read this article...</a>
+                                <a href="" class="btn btn-light d-flex justify-content-center">Click to read this article...</a>
                             </div>
 
                         </div>
@@ -190,6 +284,22 @@
 
     </div>
 
+    <script>
+        function switchStyle() {
+        if (document.getElementById('styleSwitch').checked) {
+            document.getElementById('gallery').classList.add("custom");
+            document.getElementById('exampleModal').classList.add("custom");
+        } else {
+            document.getElementById('gallery').classList.remove("custom");
+            document.getElementById('exampleModal').classList.remove("custom");
+        }
+        };
+        
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/popper.min.js" ></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" ></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/main.js"></script>
    
