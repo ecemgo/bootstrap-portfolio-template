@@ -1,9 +1,10 @@
 .nav-link.active{
-    color: rgb(23, 109, 89) !important;
+    color: rgb(22, 166, 84) !important;
 }
 
 .btn-success{
     background-color: rgb(23, 109, 89) !important;
+    border: 2px solid white !important;
 }
 
 .btn-success:hover{
@@ -30,9 +31,11 @@
     background-color: green;
 }
 
+/*
 .navbar-nav li>a:hover,.navbar-nav li>a:focus,.navbar-nav li.active {
-    color: rgb(23, 109, 89)
+    color: rgb(23, 109, 73)
 }
+*/
 
 /*-------------------------
            GALLERY
