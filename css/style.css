@@ -13,13 +13,13 @@
 
 .bg-success{
     background-color: rgb(23, 109, 89) !important;
-    opacity: 0.5;
+    opacity: 0.7;
     border-radius: 5px;
     margin-bottom: 5px;
 }
 
 .bg-dark{
-    background-color: rgba(23, 109, 89, 0.523) !important;
+    background: linear-gradient(to top right, #80FFDB, #5390D9) !important;
 }
 
 .text-secondary{
