@@ -31,6 +31,10 @@
     background-color: green;
 }
 
+.bg-violet{
+  background-color: violet;
+}
+
 /*
 .navbar-nav li>a:hover,.navbar-nav li>a:focus,.navbar-nav li.active {
     color: rgb(23, 109, 73)
