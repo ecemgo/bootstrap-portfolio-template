@@ -2,6 +2,7 @@
 
 
  - The template for a personal portfolio by using HTML, CSS and Bootstrap 5. 
+ - This template has a responsive layout. 
  - You can view the entire website from [here](https://b5-portfolio-template.netlify.app/).
 <br>
 <p align="left">
