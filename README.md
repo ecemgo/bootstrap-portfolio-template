@@ -1,4 +1,4 @@
-# Portfolio Template by HTML, CSS and Bootstrap 5
+# Portfolio Template by HTML, CSS & Bootstrap 5
 
  - The template has been made by using HTML, CSS, Bootstrap 5 and it has a responsive layout. 
  - You can view the entire page from [here](https://b5-portfolio-template.netlify.app/).
