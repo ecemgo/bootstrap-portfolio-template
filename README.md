@@ -1,4 +1,4 @@
-# Portfolio Template by HTML, CSS & Bootstrap 5
+# Portfolio Template by Bootstrap 5
 
 ## Overview
 
