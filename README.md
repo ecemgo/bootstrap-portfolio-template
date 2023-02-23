@@ -11,9 +11,10 @@ This template has a responsive layout. This portfolio includes about, image gall
 ### Screenshot
 
 <p float="left">
-  <img src="https://user-images.githubusercontent.com/13468728/221001864-e7eb6ddc-1d8e-4d2f-b1d0-17997ecff914.jpg" width="300" />
-  <img src="https://user-images.githubusercontent.com/13468728/221001884-a83c5df8-96bb-430c-9d85-756e5d3e2ad0.jpg" width="300" /> 
-  <img src="https://user-images.githubusercontent.com/13468728/221001921-c2923783-6cfd-4a1c-842d-2ccd79f26b6c.jpg" width="300" />
+  <img src="https://user-images.githubusercontent.com/13468728/221001864-e7eb6ddc-1d8e-4d2f-b1d0-17997ecff914.jpg" width="450" />
+  <img src="https://user-images.githubusercontent.com/13468728/221001884-a83c5df8-96bb-430c-9d85-756e5d3e2ad0.jpg" width="450" /> 
+  <img src="https://user-images.githubusercontent.com/13468728/221001921-c2923783-6cfd-4a1c-842d-2ccd79f26b6c.jpg" width="450" />
+  <img src="https://user-images.githubusercontent.com/13468728/221003526-a3676952-2d6b-4fe5-9a04-a7623056840d.jpg" width="450" />
 </p>
 
 ## The process
