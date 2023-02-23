@@ -2,7 +2,7 @@
 
 ## Overview
 
-This template has a responsive layout. This portfolio includes about, image gallery with a carousel, a mini blog, and a contact form.
+This template has a responsive layout, and this portfolio includes about, image gallery with a carousel, a mini blog, and a contact form.
 
 ### Link
 
