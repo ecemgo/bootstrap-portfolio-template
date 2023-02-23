@@ -2,7 +2,6 @@ body {
   font-family: 'Nunito', sans-serif;
 }
 
-
 .nav-link.active{
     color: rgb(22, 166, 84) !important;
 }
@@ -38,6 +37,14 @@ body {
 
 .bg-violet{
   background-color: violet;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.object-fit {
+  object-fit: cover;
 }
 
 /*
