@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="css/bootstrap.css" >
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
 
     <!--
     Images are from https://unsplash.com/
@@ -46,13 +49,13 @@
 
       <div data-bs-spy="scroll" data-bs-target="#scrolling_navbar" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-light p-3 rounded-2" tabindex="0">
 
-        <section class="min-vh-100 d-flex flex-column justify-content-end align-items-center" id="home" style="background-image: url('image/photo-14.jpg'); background-size: cover;">
-            <div class="text-center bg-success p-2 text-dark bg-opacity-25">
-                <p class="display-3 text-secondary mb-3">Personal Portfolio</p>
-                <h6 class="fs-5 text-secondary text-capitalize mb-4">Front-End Developer</h6>
+        <section class="min-vh-100 d-flex flex-column justify-content-center align-items-center" id="home" style="background-image: url('image/home.jpg'); background-size: cover;">
+          <img src="image/success.svg" class="img-fluid d-block col-lg-2 col-md-4">  
+          <div class="text-center bg-light p-4 text-dark bg-opacity-50 rounded-5 border border-4 border-white">
+              <p class="display-3 text-secondary mb-3">Personal Portfolio</p>
             </div>
 
-            <div class="d-grid gap-2 col-2 mx-auto">
+            <div class="d-grid gap-2 col-2 mt-4 d-flex flex-column justify-content-center align-items-center">
                 <a class="btn btn-success btn-lg active rounded-pill mb-2" href="#about">About</a>
             </div>
         </section>
@@ -60,11 +63,11 @@
         <section data-bs-spy="scroll" data-bs-target="#scrolling_navbar" class="container py-5" id="about">
             <div class="text-center py-5">
                 <h2 class="fw-bolder">About</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p class="fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </div>
             <div class="row">
                 <div class="col-lg-4" >
-                    <img class="img-fluid" src="image/photo-13.jpg">
+                    <img class="img-fluid rounded-5" src="image/19199262.png">
                 </div>
                 <div class="col-lg-7 offset-lg-1">
                     <p class="lh-lg" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, molestiae commodi? Cum ullam voluptatum fuga modi? Quos possimus corrupti quisquam? Ratione, hic repellat distinctio iste at cumque ad harum architecto odio rem excepturi itaque minima praesentium quibusdam dolorum perferendis voluptas!</p>
@@ -86,17 +89,13 @@
                     <div class="progress mb-3">
                         <div class="progress-bar progress-bar-striped bg-danger" style="width: 99%;">99%</div>
                     </div>
-                    <p class="mb-0" >ANGULAR:</p>
+                    <p class="mb-0" >TAILWIND CSS:</p>
                     <div class="progress mb-3">
                         <div class="progress-bar progress-bar-striped bg-violet" style="width: 99%;">99%</div>
                     </div>
                     <p class="mb-0" >REACT:</p>
                     <div class="progress mb-3">
                         <div class="progress-bar progress-bar-striped bg-green" style="width: 99%;">99%</div>
-                    </div>
-                    <p class="mb-0" >VUE JS:</p>
-                    <div class="progress mb-3">
-                        <div class="progress-bar progress-bar-striped bg-secondary" style="width: 99%;">99%</div>
                     </div>
                 </div>
 
@@ -108,31 +107,8 @@
             <div class="container">
                 <div class="text-white text-center py-5">
                     <h2 class="fw-bolder">Travel</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas, necessitatibus.</p>
+                    <p class="fs-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas, necessitatibus.</p>
                 </div>
-
-                <!--
-                <div class="row">
-                    <div class="col-lg-4 col-md-6 mb-4 d-flex align-items-stretch">
-                        <img src="image/img-html.jpg" class="img-fluid img-thumbnail">
-                    </div>
-                    <div class="col-lg-4 col-md-6 mb-4 d-flex align-items-stretch">
-                        <img src="image/img-css.jpg" class="img-fluid img-thumbnail">
-                    </div>
-                    <div class="col-lg-4 col-md-6 mb-4 d-flex align-items-stretch">
-                        <img src="image/img-javascript.jpg" class="img-fluid img-thumbnail">
-                    </div>
-                    <div class="col-lg-4 col-md-6 mb-4 d-flex align-items-stretch">
-                        <img src="image/img-bootstrap.jpg" class="img-fluid img-thumbnail">
-                    </div>
-                    <div class="col-lg-4 col-md-6 mb-4 d-flex align-items-stretch">
-                        <img src="image/img-reactjs.jpg" class="img-fluid img-thumbnail">
-                    </div>
-                    <div class="col-lg-4 col-md-6 mb-4 d-flex align-items-stretch">
-                        <img src="image/img-vuejs.jpg" class="img-fluid img-thumbnail">
-                    </div>
-                </div>
-                -->
 
                 <div class="row pb-4" id="gallery" data-toggle="modal" data-target="#exampleModal">
                     <div class="col-12 col-sm-6 col-lg-3 mb-4">
@@ -232,7 +208,7 @@
             <div class="container">
                 <div class="text-center py-5">
                     <h2 class="fw-bolder">Blog</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas, necessitatibus.</p>
+                    <p class="fs-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas, necessitatibus.</p>
                 </div>
 
                 <div class="row">
@@ -286,11 +262,11 @@
             <div class="container">
                 <div class="text-white text-center py-5">
                     <h2 class="fw-bolder">Contact</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas, necessitatibus.</p>
+                    <p class="fs-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas, necessitatibus.</p>
                 </div>
 
                 <div class="col-xxl-6 col-xl-7 col-lg-8 col-md-9 col-sm-10 col-11 mx-auto">
-                    <form action="" class="text-white">
+                    <form action="" class="text-white fs-6">
                         <div class="mb-3">
                             <label class="form-label text-white">Name Surname</label>
                             <input type="text" class="form-control">
@@ -308,7 +284,7 @@
                             <textarea type="text" rows="10" class="form-control"></textarea>
                         </div>
                         <div class="d-grid gap-2 col-lg-4 col-md-4 mx-auto">
-                            <button class="btn btn-success btn-lg">Send</button>
+                            <button class="btn btn-success btn-lg rounded-pill">Send</button>
                         </div>
                     </form>
                 </div>
@@ -317,7 +293,7 @@
 
         <footer class="bg-light">
             <div class="container">
-                <p class="copyright-text text-center fs-5 py-4 mb-0">Copyright © 2023 <a class="text-dark" href="https://www.ecemgo.com" target="_blank">Ecem Gokdogan</a></p>
+                <p class="copyright-text text-center fs-8 py-4 mb-0">Copyright © 2023 <a class="text-dark" href="https://www.ecemgo.com" target="_blank">Ecem Gokdogan</a></p>
                 </div>
             </div>
 

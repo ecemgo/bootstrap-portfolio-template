@@ -1,3 +1,8 @@
+body {
+  font-family: 'Nunito', sans-serif;
+}
+
+
 .nav-link.active{
     color: rgb(22, 166, 84) !important;
 }
@@ -23,7 +28,7 @@
 }
 
 .text-secondary{
-    color: white !important;
+    color: rgba(143, 136, 136, 0.884) !important;
     opacity: 0.8;
 }
 
