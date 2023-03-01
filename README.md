@@ -10,10 +10,10 @@ This template has a responsive layout, and this portfolio includes about, image 
 
 ### Screenshot
 
-<div float="center">
-  <img src="https://user-images.githubusercontent.com/13468728/222191374-8f74233f-465e-4a5a-975e-b92d1dce6a59.jpg" width="300" height="150" />
-  <img src="https://user-images.githubusercontent.com/13468728/222191394-804b0946-324c-485f-87ae-b2cb9db97ae0.jpg" width="300" height="150" /> 
-  <img src="https://user-images.githubusercontent.com/13468728/222191411-74851f47-ae36-4a4c-8346-987a59c5a6d2.jpg" width="300" height="150" />
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/13468728/222191374-8f74233f-465e-4a5a-975e-b92d1dce6a59.jpg" width="600" height="400" />
+  <img src="https://user-images.githubusercontent.com/13468728/222191394-804b0946-324c-485f-87ae-b2cb9db97ae0.jpg" width="600" height="400" /> 
+  <img src="https://user-images.githubusercontent.com/13468728/222191411-74851f47-ae36-4a4c-8346-987a59c5a6d2.jpg" width="600" height="400" />
 </div>
 
 ## The process
