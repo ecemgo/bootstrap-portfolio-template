@@ -50,15 +50,16 @@
 
       <div data-bs-spy="scroll" data-bs-target="#scrolling_navbar" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-light p-3 rounded-2" tabindex="0">
 
-        <section class="min-vh-100 d-flex flex-column justify-content-center align-items-center" id="home" style="background-image: url('image/home.jpg'); background-size: cover;">
-          <img src="image/success.svg" class="img-fluid d-block col-lg-2 col-md-4">  
-          <div class="text-center bg-light p-4 text-dark bg-opacity-50 rounded-5 border border-4 border-white">
-              <p class="display-3 text-secondary mb-3">Personal Portfolio</p>
+        <section class="min-vh-100 d-flex flex-wrap align-content-center" id="home" style="background-image: url('image/home.jpg'); background-size: cover;">
+          <div class="container d-flex align-items-center py-5">
+              <div class="col text-center bg-light m-4 p-4 text-dark bg-opacity-50 rounded-5 border border-2 border-white">
+                <img src="image/success.png" class="img-fluid col-lg-2 col-sm-6 col-xs-6 mb-4"> 
+                <p class="display-2 text-secondary mb-3">Personal Portfolio</p>
+                <p class="text-secondary fs-5 mb-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tellus lectus, dapibus a erat quis, venenatis feugiat nulla. Phasellus sit amet ante sapien.</p>
+                <a class="btn btn-success btn-lg active rounded-pill mb-3" href="#about">About</a>
+                <a class="btn btn-light btn-lg rounded-pill mb-3" href="#contact">Contact</a>
             </div>
-
-            <div class="d-grid gap-2 col-2 mt-4 d-flex flex-column justify-content-center align-items-center">
-                <a class="btn btn-success btn-lg active rounded-pill mb-2" href="#about">About</a>
-            </div>
+          </div>
         </section>
 
         <section data-bs-spy="scroll" data-bs-target="#scrolling_navbar" class="container py-5" id="about">
@@ -71,8 +72,8 @@
                     <img class="img-fluid rounded-5" src="image/19199262.png">
                 </div>
                 <div class="col-lg-7 offset-lg-1">
-                    <p class="lh-lg" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, molestiae commodi? Cum ullam voluptatum fuga modi? Quos possimus corrupti quisquam? Ratione, hic repellat distinctio iste at cumque ad harum architecto odio rem excepturi itaque minima praesentium quibusdam dolorum perferendis voluptas!</p>
-                    <h3 class="fw-bold fs-4">Travel</h3>
+                    <p class="lh-lg mb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, molestiae commodi? Cum ullam voluptatum fuga modi? Quos possimus corrupti quisquam? Ratione, hic repellat distinctio iste at cumque ad harum architecto odio rem excepturi itaque minima praesentium quibusdam dolorum perferendis voluptas!</p>
+                    <h3 class="fw-bold fs-4">Skills</h3>
                     
                     <p class="mb-0" >HTML:</p>
                     <div class="progress mb-3">
@@ -89,10 +90,6 @@
                     <p class="mb-0" >BOOTSTRAP 5:</p>
                     <div class="progress mb-3">
                         <div class="progress-bar progress-bar-striped bg-danger" style="width: 99%;">99%</div>
-                    </div>
-                    <p class="mb-0" >TAILWIND CSS:</p>
-                    <div class="progress mb-3">
-                        <div class="progress-bar progress-bar-striped bg-violet" style="width: 99%;">99%</div>
                     </div>
                     <p class="mb-0" >REACT:</p>
                     <div class="progress mb-3">
@@ -294,7 +291,7 @@
 
         <footer class="bg-light">
             <div class="container">
-                <p class="copyright-text text-center fs-8 py-4 mb-0">Copyright © 2023 <a class="text-dark" href="https://www.ecemgo.com" target="_blank">Ecem Gokdogan</a></p>
+                <p class="copyright-text text-center fs-8 py-4 mb-0">Copyright © 2023 <a class="text-dark" href="https://github.com/ecemgo" target="_blank">@ecemgo</a></p>
                 </div>
             </div>
 
