@@ -34,4 +34,5 @@ This template has a responsive layout, and this portfolio includes about, image 
 
 - Website - [ecemgo.com](https://www.ecemgo.com/)
 - Twitter - [@ecemgo](https://twitter.com/ecemgo)
+- Medium - [@ecemgo](https://medium.com/@ecemgo)
 - Frontend Mentor - [@ecemgo](https://www.frontendmentor.io/profile/ecemgo)
