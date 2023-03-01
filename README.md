@@ -10,12 +10,11 @@ This template has a responsive layout, and this portfolio includes about, image 
 
 ### Screenshot
 
-<p float="left">
-  <img src="https://user-images.githubusercontent.com/13468728/221001864-e7eb6ddc-1d8e-4d2f-b1d0-17997ecff914.jpg" width="300" height="150" />
-  <img src="https://user-images.githubusercontent.com/13468728/221001884-a83c5df8-96bb-430c-9d85-756e5d3e2ad0.jpg" width="300" height="150" /> 
-  <img src="https://user-images.githubusercontent.com/13468728/221001921-c2923783-6cfd-4a1c-842d-2ccd79f26b6c.jpg" width="300" height="150" />
-  <img src="https://user-images.githubusercontent.com/13468728/221003526-a3676952-2d6b-4fe5-9a04-a7623056840d.jpg" width="300" height="150" />
-</p>
+<div float="center">
+  <img src="https://user-images.githubusercontent.com/13468728/222191374-8f74233f-465e-4a5a-975e-b92d1dce6a59.jpg" width="300" height="150" />
+  <img src="https://user-images.githubusercontent.com/13468728/222191394-804b0946-324c-485f-87ae-b2cb9db97ae0.jpg" width="300" height="150" /> 
+  <img src="https://user-images.githubusercontent.com/13468728/222191411-74851f47-ae36-4a4c-8346-987a59c5a6d2.jpg" width="300" height="150" />
+</div>
 
 ## The process
 
