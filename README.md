@@ -28,7 +28,7 @@ This template has a responsive layout, and this portfolio includes about, image 
 
 ### Useful resources
 
-- [Bootstrap Docs](https://getbootstrap.com/docs/5.0/getting-started/introduction/) - It helped to give features to the pages.
+- [Bootstrap Docs](https://getbootstrap.com/docs/5.0/getting-started/introduction/) - It was used to give features to the pages and build a fully responsive page.
 
 ## Author
 
