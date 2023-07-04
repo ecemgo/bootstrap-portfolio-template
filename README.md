@@ -6,7 +6,7 @@ This template has a responsive layout, and this portfolio includes about, image 
 
 ### Link
 
-- [Live Site URL](https://b5-portfolio-template.netlify.app/)
+- [Live Site](https://b5-portfolio-template.netlify.app/)
 
 ### Screenshot
 
