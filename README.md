@@ -24,7 +24,6 @@ This template has a responsive layout, and this portfolio includes about, image 
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
 - Javascript
 - Bootstrap 5
 - Flexbox
