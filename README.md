@@ -34,6 +34,7 @@ This template has a responsive layout, and this portfolio includes about, image 
 
 ### Author
 
-- Twitter - [@ecemgo](https://twitter.com/ecemgo)
+- Github - [@ecemgo](https://github.com/ecemgo)
 - CodePen - [@ecemgo](https://codepen.io/ecemgo)
 - YouTube - [@ecemgokdogan](https://www.youtube.com/channel/UCktkPv17cw27PaFGcnZa_aQ)
+- Twitter - [@ecemgo](https://twitter.com/ecemgo)
